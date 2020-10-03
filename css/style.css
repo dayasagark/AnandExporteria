@@ -1,0 +1,311 @@
+/*--------------------------------------------------------------============================================================
+
+1. Apps Craft Typography
+2. Apps Ccraft Main Menu
+3. Apps Craft Welcome Section
+4. Apps Craft About
+5. Apps Craft Feature Section
+6. Apps Craft Video Section
+7. Apps Craft Fun Factory
+8. Apps Craft Why Choose Us
+9. Apps Craft Screenshort Section 
+10. Apps Craft Testimonial 
+11. Apps Craft Pricing Table
+12. Apps Craft Team
+13. Apps Craft now Available
+14. Apps Craft Subscribe
+15. Apps Craft FAQ Section
+16. Apps Craft Footer
+17. Apps Craft Magnific Custom Css
+18. Contact Form
+
+=============================================================--------------------------------------------------------------*/
+
+
+/*====================================================================== 
+		1. Apps Craft Typography 
+====================================================================================*/
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+
+.apps-craft-sub-scribe-section.section-padding {
+	padding: 230px 0 130px 0;
+}
+.apps-craft-feature-section .content-margin-top {
+	margin-top: 200px;
+}
+.apps-craft-section-heading {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.apps-craft-section-heading.white h2{
+	background-image: none;
+	-webkit-text-fill-color: #fff;
+}
+
+.apps-craft-btn.play-store-btn{
+	display: inline-block;
+	width: 180px;
+	height: 70px;
+	border-radius: 3px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 70px;
+}
+.apps-craft-btn.app-store-btn{
+	width: 180px;
+	height: 70px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 70px;
+	display: inline-block;
+}
+.apps-craft-btn{
+	margin: 0 60px 0 0;
+}
+.apps-craft-btn:last-child{
+	margin: 0;
+}
+.apps-craft-welcome-tbl{
+	height: 100vh;
+	width: 100%;;
+	display: table;
+}
+.apps-craft-welcome-tbl-c{
+	display: table-cell;
+	vertical-align: middle;
+}
+.apps-craft-tbl{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.apps-craft-tbl-c {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.apps-craft-btn.solid-color{
+	width: 140px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: #f8612f;
+	box-shadow: 0 18px 32px rgba(0,0,0,.18);
+	text-align: center;
+	line-height: 40px;
+	color: #E3E3E3;
+	font-size: 1em;
+	font-weight: 700;
+	padding: 5px;
+	display: inline-block;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.apps-craft-btn.solid-color:hover {
+	background-color: #232838;
+	box-shadow: none;
+}
+
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	z-index: 99999999999999;
+	background-image: url(img/Preloader_1.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+
+/*=====================================================================
+		Apps Craft Gradient Version Color 
+======================================================================================*/
+
+.apps-craft-menu ul li a:hover ,
+.apps-craft-welcome-content h1 span,
+.apps-craft-single-about span,
+.apps-carft-screen-short-content #options #previous,
+.apps-carft-screen-short-content #options #next,
+.apps-craft-pricing-body h2,
+.apps-craft-contact-form-content h2 span,
+.apps-craft-accordion .panel-title a.collapsed:before {
+	color: #0e457e;
+}
+.apps-craft-btn.app-store-btn{
+background: -moz-linear-gradient(63deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(254,80,59,1)), color-stop(50%, rgba(246,112,46,1)), color-stop(100%, rgba(244,156,71,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(63deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(63deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(63deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%); /* ie10+ */
+background: linear-gradient(27deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f49c47', endColorstr='#f8612f',GradientType=0 ); /* ie6-9 */
+}
+.apps-craft-feature-content:before {
+	background-image: -webkit-linear-gradient( 63deg, rgb(254,80,59) 0%, rgb(246,112,46) 53%, rgb(244,156,71) 100%);
+	background-image: -ms-linear-gradient( 63deg, rgb(254,80,59) 0%, rgb(246,112,46) 53%, rgb(244,156,71) 100%);
+}
+.apps-craft-feature-content i{
+	background-image: -webkit-linear-gradient( 42deg, rgb(254,80,59) 0%, rgb(246,112,46) 53%, rgb(244,156,71) 100%);
+	background-image: -ms-linear-gradient( 42deg, rgb(254,80,59) 0%, rgb(246,112,46) 53%, rgb(244,156,71) 100%);
+}
+.apps-craft-video-content a i {
+	background-image: -webkit-linear-gradient(-106deg, #fa8749, #f6702e, #f8612f);
+	background-image: -webkit-linear-gradient(196deg, #fa8749, #f6702e, #f8612f);
+	background-image: linear-gradient(-106deg, #fa8749, #f6702e, #f8612f);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;   
+}
+.fun-factorey-paralx-bg-1 {
+	background-image: url(img/fun-factory-bg-1.png);
+}
+.fun-factorey-paralx-bg-2 {
+	background-image: url(img/fun-factory-bg-2.png);
+}
+.apps-craft-single-fun i{
+	color: #F45B64;
+}
+.apps-craft-testimonial-section{
+	background-color: #f8612f;
+	background-image: -webkit-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
+	background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
+}
+.apps-craft-commentor-img figcaption {
+	background-color: #f8612f;
+}
+#apps-craft-testimonial-thumb figure:before{
+	background-color: rgba(242,80,77,.57);
+}
+.apps-craft-dash-border:before{
+	border-left: 1px dashed #E24B48;
+}
+.apps-craft-team-member-pic:before{
+	background-color: #fff;
+	background-image: -webkit-linear-gradient( 42deg, rgb(242,81,76) 0%, rgb(246,66,94) 52%, rgb(250,50,111) 100%);
+	background-image: -ms-linear-gradient( 42deg, rgb(242,81,76) 0%, rgb(246,66,94) 52%, rgb(250,50,111) 100%);
+}
+.apps-craft-team-img:before{
+	border-left: 1px dashed #F04F4C;
+}
+.apps-craft-subscribe-wraper{
+	background-image: -webkit-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
+	background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
+}
+.apps-craft-subscribe-form input[type="submit"]{
+	background-color: #66B5AD;
+}
+.apps-craft-accordion .panel-title a:before{
+	background-color: #f34e50;
+	background-image: -webkit-linear-gradient(-131deg, #fa8749, #f6702e, 99%, #f8612f);
+	background-image: -webkit-linear-gradient(221deg, #fa8749, #f6702e, 99%, #f8612f);
+	background-image: linear-gradient(-131deg, #fa8749, #f6702e, 99%, #f8612f);
+}
+.apps-craft-accordion .panel-title{
+	background-color: #f8612f;
+	background-image: -webkit-linear-gradient( 4deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%);
+	background-image: -ms-linear-gradient( 4deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%);
+}
+.apps-craft-accordion .panel-title a.collapsed:before{
+	background-image: none;
+}
+.apps-craft-contact-form input[type="submit"]{
+	background-color: #f24f4e;
+	background-image: -webkit-linear-gradient( 35deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%);
+	background-image: -ms-linear-gradient( 35deg, rgba(254,80,59,1) 0%, rgba(246,112,46,1) 50%, rgba(244,156,71,1) 100%);
+}
+.dropdown-menu{
+	background-color: #43b2be !important;
+	border-radius: .0rem !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #30818a !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    /* color: #fff; */
+    text-decoration: none;
+    background-color: #41cbda !important;
+}
+
+/*
+
+		9. Apps Craft Screenshort Section 
+==========================================================*/
+
+.apps-carft-screen-short-ssection {
+	background-color: #F0F0F0;
+}
+.apps-carft-screen-short-content {
+	position: relative;
+}
+.apps-carft-screen-short-content #options #previous,
+.apps-carft-screen-short-content #options #next {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	background-color: transparent;
+	border: 0px solid;
+	font-size: 2.571em;
+}
+.apps-carft-screen-short-content #options #next {
+	left: inherit;
+	right: 0;
+}
+.apps-carft-screen-short-content #options #previous:focus,
+.apps-carft-screen-short-content #options #next:focus {
+	outline: none;
+}
+.subscriptionouter {
+    display: flex;
+    width: 100%;
+}
+.subscriptionouter input {
+    width: calc(100% - 120px);
+    float: left;
+    box-shadow: none !important;
+    outline: none !important;
+    border:1px solid #0e457e !important;
+}
+.subscriptionouter 
+ button {
+    width: 110px;
+    margin-left: 10px;
+    background: #0e457e !important;
+    border: 1px solid #0e457e !important;
+    box-shadow: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+.subscriptionouter 
+ button:hover{
+	background:#7abb57 !important;
+	border: 1px solid #7abb57 !important;
+}
+

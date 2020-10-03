@@ -1,0 +1,181 @@
+@media(max-width: 1499.98px){
+	.booking-content {
+	    padding: 21px 0px;
+	}
+	.main{
+	    background-size: cover;
+    	background-position: 36% -240px;
+	}
+	.slider-mobile img {
+	    width: 92%;
+	    position: relative;
+	    left: 20px;
+	    top: -10px;
+	}
+}
+@media(max-width: 1299.98px){
+	.booking-content {
+	    padding: 21px 0px;
+	}
+	.main{
+	    background-size: cover;
+    	background-position: 36% -240px;
+	}
+	.slider-mobile img {
+	    width: 92%;
+	    position: relative;
+	    left: 20px;
+	    top: -10px;
+	}
+}
+@media(max-width: 1199.98px){
+	.slider-mobile {
+	    position: relative;
+	    left: inherit;
+	    top: 25px;
+	}
+	.download-proses {
+	    padding: 20px 0px;
+	}
+	.apps-carft-screen-short-ssection {
+		overflow: hidden;
+	}
+	.main{
+	    background-size: cover;
+    	background-position: 36% -240px;
+	}
+
+}
+@media(max-width: 991.98px){
+	div#navbarNavDropdown {
+        border: 1px solid rgba(255, 255, 255, 0.63);
+	    margin-top: 15px;
+	    padding: 5px;
+	    position: absolute;
+	    width: 100%;
+	    left: 0px;
+	    top: 0px;
+	    z-index: 1000;
+	    background: #0e457e;
+	}
+	.main{
+	    background-size: cover;
+    	background-position: 36% -240px;
+	}
+	.slider-mobile img {
+	    width: 102%;
+	    position: relative;
+	    left: 0px;
+	    top: -33px;
+	}
+	nav.navbar.navbar-expand-lg.navbar-light.float-right {
+	    width: 100%;
+        padding: 0px;
+	}
+	button.navbar-toggler {
+	    position: absolute;
+	    top: -64px;
+	    right: 0px;
+	}
+	.navbar-light ul.navbar-nav li:last-child{
+		margin: 0px;
+	}
+	div#navbarNavDropdown {
+	    border: 1px solid rgba(255, 255, 255, 0.63);
+	    margin-top:  15px;
+	    padding:  5px;
+	}
+	#navbarNavDropdown ul.navbar-nav {
+	    background: rgba(255, 255, 255, 0.11);
+	}
+	.download-proses{
+		padding: 10px 0px;
+		text-align: center;
+	}
+	.about-part{
+		background-size: 100% 100%;
+	}
+	.booking-content {
+	    padding: 0px 0px 88px;
+	}
+	.slider-mobile {
+	    position: relative;
+	    left: inherit;
+	    top: 11px;
+	}
+	.google-play, .app-store {
+	    margin-right: 10px;
+	    width: 45%;
+	    float: left;
+	}
+	.download-proses h2 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+	.download-proses {
+	    padding: 20px 0px;
+	}
+}
+@media(max-width:767.98px){
+	.slider-mobile img{
+		top:0px;
+	}
+	.main{
+		background-size: cover;
+	}
+	.about-part {
+	    margin-top: 0px;
+	    padding: 50px 0px 50px;
+	    background-color: #f0f0f0;
+	}
+	.booking-content {
+	    padding: 10px 0px 30px;
+	}
+	.slider-part{
+		padding: 20px 0px 0px;
+	}
+	.slider-mobile {
+	    position: relative;
+	    left: inherit;
+	    top: 5px;
+	}
+	nav.navbar.navbar-expand-lg.navbar-light.float-right {
+	    width: 100%;
+        padding: 0px;
+	}
+	button.navbar-toggler {
+	    position: absolute;
+	    top: -64px;
+	    right: 0px;
+	}
+	.navbar-light ul.navbar-nav li:last-child{
+		margin: 0px;
+	}
+	
+	#navbarNavDropdown ul.navbar-nav {
+	    background: rgba(255, 255, 255, 0.11);
+	}
+	.download-proses{
+		padding: 10px 0px;
+		text-align: center;
+	}
+	/*.google-play, .app-store{
+		margin: 10px 0px;
+	}*/
+	ul.social-link li{
+		margin: 5px;
+	}
+	.works{
+		padding: 30px 0px;
+	}
+	.download-proses h2,
+	.booking-content h1,
+	.work-info h1,
+	.about h1{
+		font-size: 25px;
+	}
+	.google-play, .app-store {
+	    margin: 10px 5px 30px;
+	}
+
+}
