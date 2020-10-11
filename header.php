@@ -62,7 +62,7 @@
                         <ul class="navbar-nav">
                         <li><a href="/">HOME</a> </li>
                         <li><a href="index#about">ABOUT US</a> </li>
-                        <li><a href="index#Products">PRODUCTS</a> </li>
+                        <li><a href="products.php">PRODUCTS</a> </li>
                         <li><a href="index#gallery">GALLERY</a> </li>
                         <li><a href="index#services">SERVICES</a> </li>
                         <li><a href="index#contact">CONTACT US</a> </li>

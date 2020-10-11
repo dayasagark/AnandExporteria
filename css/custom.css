@@ -603,3 +603,8 @@ button.navbar-toggler {
     text-align: center;
     color: #b58741 !important;
 }
+
+.card-img-top_cstm {
+    width: 350px;
+    height: 218px;
+}
